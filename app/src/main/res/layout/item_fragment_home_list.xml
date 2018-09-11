@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layoutAnimation="@anim/layout_animation_fall_down"
+    >
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_img"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher"
+        android:transitionName="avatar"
+
+        />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名： 笑么之"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:layout_margin="10dp"
+        android:transitionName="nickname"
+        />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="@android:color/darker_gray"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_margin="10dp"
+        android:text="很开水电费健康看电视剧水电费第三方打发时间凤凰健康紧急呼叫大富科技法律司法鉴定荆防颗粒所肩负的会计分录围殴以我威瑞信没那么"
+        />
+
+
+
+</LinearLayout>
